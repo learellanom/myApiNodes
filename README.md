@@ -720,7 +720,7 @@ id: id del nodo a eliminar
 ## Instalación
 
 
-- clonar el repositorio git clone
+- clonar el repositorio git clone https://github.com/learellanom/myApiNodes.git
 - composer install
 - php artisan migrate
 - php artisan db:seed
