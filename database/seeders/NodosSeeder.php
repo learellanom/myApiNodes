@@ -17,22 +17,53 @@ class NodosSeeder extends Seeder
         //
         Nodos::create([
             'parent' => null,
-            'title' => 'one',
+            'title' => 'uno',
         ]);
 
         Nodos::create([
             'parent' => null,
-            'title' => 'two',
+            'title' => 'dos',
         ]);
 
         Nodos::create([
             'parent' => null,
-            'title' => 'three',
+            'title' => 'tres',
         ]);
 
         Nodos::create([
             'parent' => null,
-            'title' => 'four',
+            'title' => 'cuatro',
         ]);
+
+        Nodos::create([
+            'parent' => null,
+            'title' => 'cinco',
+        ]);
+
+        Nodos::create([
+            'parent' => null,
+            'title' => 'seis',
+        ]);
+
+        Nodos::create([
+            'parent' => 1,
+            'title' => 'siete',
+        ]);
+
+        Nodos::create([
+            'parent' => 1,
+            'title' => 'ocho',
+        ]);
+
+        Nodos::create([
+            'parent' => 2,
+            'title' => 'nueve',
+        ]);
+
+        Nodos::create([
+            'parent' => 2,
+            'title' => 'diez',
+        ]);
+
     }
 }
